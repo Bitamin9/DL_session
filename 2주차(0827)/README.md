@@ -35,6 +35,8 @@ Torch.nn 문서: https://pytorch.org/docs/stable/nn.html
 # 복습과제 2
 ### 고양이 분류 실습
 
+출처: Andrew Ng. Deep Learning Specialization 
+
 2주차 세션에서 MultiLayer Neural Network 으로 고양이를 분류하는 모델을 학습하는 함수들을 만들어보았습니다. 
 Building_your_Deep_Neural_Network_Step_by_Step.ipynb, Deep Neural Network - Application.ipynb의 파일을 열어 필요한 코드를 채워 보는 연습을 하시면 됩니다! 
 
