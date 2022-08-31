@@ -1,0 +1,63 @@
+# 복습과제 1
+### MNIST 실험 
+
+MNIST 는 고등학생과 미국 인구조사국 직원들이 손으로 쓴 70,000개의 작은 숫자 이미지 파일이다. 
+Classiciation 의 Toy Problem 으로 사용된다. 
+
+각 이미지는 28x28 픽셀로 구성되어 있으며, 각 픽셀은 0에서 255 사이의 숫자 (혹은 0부터 1) 행렬로 표현된다. 
+
+![mnist_2](https://static.javatpoint.com/tutorial/tensorflow/images/mnist-dataset-in-cnn3.png)
+
+학습 데이터 60000개, 테스트 데이터 10000개로 구성되어 있다.
+
+Pytorch 의 torch.nn 모듈을 사용하여 MNIST 실험을 돌려보자. 
+
+Torch.nn 문서: https://pytorch.org/docs/stable/nn.html 
+
+### 과제: 
+
+* MNIST_test.ipnyp 의 파일에는 MNIST 데이터셋을 이용하여 간단하게 학습을 하는 모델이 정의되어 있습니다.
+* 코드를 살펴보고, 모델과 학습 함수의 파라미터를 바꾸어보면서 실험을 해봅시다. (TODO 로 표시되어 있음)
+
+### 제출: 
+
+#### Fork 혹은 Branch 를 파서 올린 후 merge 를 위한 pull request 을 해주시길 바랍니다! (충돌 위험 방지)
+#### 각자 조 파일 안에 자신의 이름을 가진 파일을 만들어서 올려주세요.
+
+* 학습률, Layer, Optimizer, batch size 등등 실험을 통해 accuracy 를 올려보고 최종 모델 파일을 제출해주세요.
+    * MNIST_test.ipynb 파일  + mnist_test.pt 파일 제출하면 됨.
+* 실험 결과를 1쪽 이내의 보고서로 작성하여 pdf 나 txt 파일로 제출해주세요.
+  * epoch, learning rate, layer, batch size, optimizer 바꾸었을 때 accuracy, loss 에 대한 분석 등등
+  
+
+------------
+
+# 복습과제 2
+### 고양이 분류 실습
+
+출처: Andrew Ng. Deep Learning Specialization 
+
+2주차 세션에서 MultiLayer Neural Network 으로 고양이를 분류하는 모델을 학습하는 함수들을 만들어보았습니다. 
+Building_your_Deep_Neural_Network_Step_by_Step.ipynb, Deep Neural Network - Application.ipynb의 파일을 열어 필요한 코드를 채워 보는 연습을 하시면 됩니다! 
+
+### 제출:
+
+#### Fork 혹은 Branch 를 파서 올린 후 merge 를 위한 pull request 을 해주시길 바랍니다! (충돌 위험 방지)
+#### 각자 조 파일 안에 자신의 이름을 가진 파일을 만들어서 올려주세요.
+
+* 코드를 채운 최종 2개의 ipynb 파일을 올려주세요. 
+
+------------
+
+### 제출에 대한 부가설명
+
+* 주차 --> 조 파일 --> 자신의 이름 파일 만들고 --> 복습과제 파일을 (2주차는 5개) 올려주시면 됩니다.
+  * Ex) 2주차 -> 운영진 -> 김은혜 --> MNIST_test.ipynb/MNIST_test_보고서.pdf/mnist_test.pt/Building_your_Deep_Neural_Network_Step_by_Step.ipynb, Deep Neural Network - Application.ipynb
+
+* pull request 제목을 "이름 + _주차 복습과제 제출합니다." 로 해주세요! 
+
+
+
+
+
+
