@@ -1,0 +1,70 @@
+## Hyparameter_meaning 
+Number of Epochs - for i 횟수 
+
+2. 배치크기 batch size - 매개변수가 갱신되기 전 신경망을 통해 전파된 데이터 샘플의 수  
+batch_size train, test의 개수 
+
+3. 학습률 learning rate- 각 배치/에폭에서 모델의 매개변수를 조절하는 비율. 
+값이 작을수록 학습속도가 느려지고, 값이 크면 학습 중 예측할 수 없는 동작이 발생함. 
+
+4. 신경망의 개수 - layer - nn개수
+
+5. 활성화 함수 - nn.Sigmoid(), nn.Tanh(), nn.ReLU()
+
+ 
+6. 손실함수(Loss function)-  주어진 데이터 샘플을 입력으로 계산한 예측과 정답(label)을 비교하여 손실(loss)을 계산 
+획득한 결과와 실제 값 사이의 틀린정도를 측정, 
+loss_fn = nn.CrossEntropyLoss()  
+
+7. 옵티마이저 클래스 
+optimizer - torch.optim.SGD
+torch.optim.Adagrad()
+torch.optim.RMSprop()  
+
+
+1번쨰 시도) 
+epoch = 20 
+batch_size = 16
+learning_rate = 1e-4
+layer = 4개 
+activate_function = nn.Sigmoid()
+Loss function = nn.CrossEntropyLoss() 
+optimizer = torch.optim.Adam()
+
+accuravy : 0.9536 
+연산속도 : 22m
+
+2번쨰 시도) -> 가장 높은 정확도 
+epoch = 20
+batch_size = 16
+learning_rate = 1e-3 
+layer = 4개층
+Activate_function =  nn.Tanh()
+Loss function = nn.CrossEntropyLoss() 
+optimizer =  torch.optim.RMSprop()  
+
+accuracy : 0.9711
+연산속도 : 19m
+
+3번쨰 시도) 
+epoch = 20
+batch_size = 16
+learning_rate = 1e-3 
+layer = 4
+Activate_function = nn.ReLU()
+Loss function = nn.CrossEntropyLoss() 
+optimizer =torch.optim.Adagrad() 
+
+accuracy : 0.5678 
+
+
+4번쨰 시도) 
+epoch = 20
+batch_size = 16
+learning_rate = 1e-3 
+layer = 4
+Activate_function = nn.ReLU()
+Loss function = nn.CrossEntropyLoss() 
+optimizer =torch.optim.RMSprop()
+
+accuracy : 0.5822 
