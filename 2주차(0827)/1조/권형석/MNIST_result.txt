@@ -1,0 +1,11 @@
+epoch = 15
+learning rate = 1e-3
+3-layer
+batch size = 100
+optimizer = Adam (다른 optimizer에 대한 이해도 부족)
+
+accuracy = 0.9805
+loss = 1.4635636806488037
+
+layer 수를 늘리고 각 layer을 구성하는 node의 개수를 다르게 해보는 것도 괜찮을 것 같다.
+optimizer에 대한 추가적인 조사 및 이해 후 적용.
