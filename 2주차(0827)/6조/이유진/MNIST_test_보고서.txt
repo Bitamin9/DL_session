@@ -1,0 +1,4 @@
+batchsize는 32로 늘려주었다.
+모델 layer를 5층으로 키워주었다.
+optimizer는 Adam이 적합하므로 유지시켰다.
+epoch은 15로 줄여주었는데, epoch을 늘려주어도 좋을 것 같다.
