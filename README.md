@@ -7,4 +7,5 @@
 |-----|--------|-----------------------------------|--------------------------------------|----------|
 | 1주차 | 교육부    | Course 1 Week 1 - Course 1 Week 2 | Neural Network Basics & Pytorch      | -    |
 | 2주차 | 교육부    | Course 1 Week 3 - Course 1 Week 4 | Deep Neural Networks & Implementation | 9월 4일 |
-| 3주차 | 1조     | Course 2 Week 1 - Course 2 Week 2 |                                      |      |
+| 3주차 | 1조     | Course 2 Week 1                    |  Initialization, Regularization  | 9월 11일 |
+| 4주차 | 2조     | Course 2 Week 2                    |    |  |
