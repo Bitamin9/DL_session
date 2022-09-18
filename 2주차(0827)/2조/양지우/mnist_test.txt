@@ -1,0 +1,8 @@
+epoch : 10
+- accuracy: 0.954
+epoch : 15
+- accuracy: 0.9771
+epoch : 20
+- accuracy: 0.9745
+
+epoch가 높다고 꼭 좋은것은 아니다
