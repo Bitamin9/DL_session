@@ -1,0 +1,9 @@
+diff a/3주차(0907)/4조/최윤서/Gradient Checking v1.ipynb b/3주차(0907)/4조/최윤서/Gradient Checking v1.ipynb	(rejected hunks)
+@@ -169,6 +169,7 @@
+   },
+   {
+    "cell_type": "code",
++   "execution_count": 4,
+    "metadata": {
+     "pycharm": {
+      "name": "#%%\n"
